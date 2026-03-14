@@ -6,4 +6,4 @@ export const getDashboardStats = (projectId) => {
 }
 
 export const getProjectSummary = (projectId) =>
-  api.get(`/reports/projects/${projectId}/summary/`)
+  api.get(`/reports/project/${projectId}/summary/`)
